@@ -6,11 +6,16 @@ Luca Di Bello, University of Italian Switzerland (USI), 2023
 
 - [Geographical-based friendship network](#geographical-based-friendship-network)
   - [Table of contents](#table-of-contents)
+  - [Requirements](#requirements)
   - [Project description](#project-description)
   - [Inhabitant maps](#inhabitant-maps)
     - [Purely random map](#purely-random-map)
     - [Geographical-based random map](#geographical-based-random-map)
   - [Friendship network](#friendship-network)
+
+## Requirements
+
+- Python >= 3.9
 
 ## Project description
 
