@@ -47,7 +47,7 @@ $$
 The probability of a random individual being located in coordinates $(x,y)$ is the following:
 
 $$
-\begin{equation} \tag{2} 
+\begin{equation} \tag{2}
 P(\text{random person settles in } (x,y)) = \frac{s_{f(x,y)}}{\sum_{(x',y') \in \text{Map}} s_{f(x',y')}}
 \end{equation}
 $$
