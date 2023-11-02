@@ -5,7 +5,7 @@ from numpy import double
 class GeographicalFeatureType(Enum):
     """Enum describing the type of geographical feature"""
 
-    WOODS = 0
+    WILDERNESS = 0
     DESERT = 1
     MOUNTAIN = 2
     RIVER = 3
@@ -20,7 +20,7 @@ class GeographicalFeature:
         type: GeographicalFeatureType,
         name: str,
         color: str,
-        ease_of_living: double = 0.5,
+        ease_of_living: double = double(0.5),
     ):
         self._color = color
         self._name = name
