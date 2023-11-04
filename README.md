@@ -7,13 +7,11 @@ Luca Di Bello, University of Italian Switzerland (USI), 2023
 - [Geographical-based friendship network](#geographical-based-friendship-network)
   - [Table of contents](#table-of-contents)
   - [Project description](#project-description)
+  - [Showcase](#showcase)
   - [Inhabitant maps](#inhabitant-maps)
     - [Purely random map](#purely-random-map)
     - [Geographical-based random map](#geographical-based-random-map)
   - [Friendship networks](#friendship-networks)
-  - [Showcase](#showcase)
-    - [Purely random friendship network](#purely-random-friendship-network)
-    - [Geographical-based friendship network](#geographical-based-friendship-network-1)
 
 ## Project description
 
@@ -22,6 +20,23 @@ Social networks are systems that map the relationships and interactions between 
 Geographical distance plays a crucial role in social network formation, with closer physical proximity typically leading to more frequent and stronger social ties.
 
 Additionally, geographical features, such as the density of people in an area (more in cities and less in remote mountainous regions), profoundly influence the composition and scale of these networks, shaping the diversity and connectivity of communities within a given region.
+
+## Showcase<!-- GIFS -->
+
+<table>
+  <tr>
+    <th>Purely random friendship network</th>
+    <th>Geographical-based friendship network</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="./assets/erdos-renyi-network/gifs/erdos-renyi-network-simulation-1.gif" width="auto" />
+    </td>
+    <td>
+      <img src="./assets/geographical-friendship-network/gifs/geographical-friendship-network-simulation-1.gif" width="auto" />
+    </td>
+  </tr>
+</table>
 
 ## Inhabitant maps
 
@@ -65,18 +80,8 @@ From the inhabitant maps, a friendship network is created following two differen
 
 $$
 \begin{equation*} \tag{3}
-P(A - B) = e^{-\beta d(A,B)}
+P(A - B) = e^{-\beta \, d(A,B)}
 \end{equation*}
 $$
 
-Where $d(A,B)$ is the Euclidean distance between $A$ and $B$.
-
-## Showcase<!-- GIFS -->
-
-### Purely random friendship network
-
-![Erdős–Rényi friendship network](./assets/erdos-renyi-network/gifs/erdos-renyi-network-simulation-1.gif)
-
-### Geographical-based friendship network
-
-![Geographical-based map](./assets/geographical-friendship-network/gifs/geographical-friendship-network-simulation-1.gif)
+Where $d(A,B)$ is the Euclidean distance between $A$ and $B$ and $\beta$ is a parameter that determines the strength of the geographical effect. The higher the value of $\beta$, the more likely it is that two individuals will be friends if they are close to each other.
