@@ -31,6 +31,7 @@ Luca Di Bello, University of Italian Switzerland (USI), 2023
     - [Purely random map](#purely-random-map)
     - [Geographical-based random map](#geographical-based-random-map)
   - [Friendship networks](#friendship-networks)
+  - [Project](#project)
 
 ## Project description
 
@@ -87,3 +88,11 @@ P(A - B) = e^{-\beta \, d(A,B)}
 $$
 
 Where $d(A,B)$ is the Euclidean distance between $A$ and $B$ and $\beta$ is a parameter that determines the strength of the geographical effect. The higher the value of $\beta$, the more likely it is that two individuals will be friends if they are close to each other.
+
+## Project
+
+The project is available as a *Jupyter Notebook* [here](./notebooks/geographical-friendship-network.ipynb). It is advised to use the provided *environment.yml* file to create a new *conda* environment with all the required dependencies by executing the following command:
+
+```bash
+conda env create -f environment.yml
+```
