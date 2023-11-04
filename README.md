@@ -6,29 +6,14 @@ Luca Di Bello, University of Italian Switzerland (USI), 2023
 
 - [Geographical-based friendship network](#geographical-based-friendship-network)
   - [Table of contents](#table-of-contents)
-  - [Requirements](#requirements)
-  - [Showcase ](#showcase-)
-    - [Erdős–Rényi friendship network](#erdősrényi-friendship-network)
-    - [Geographical-based friendship network](#geographical-based-friendship-network-1)
   - [Project description](#project-description)
-  - [Inhabitant maps](#inhabitant-maps)
-    - [Purely random map](#purely-random-map)
-    - [Geographical-based random map](#geographical-based-random-map)
-  - [Friendship network](#friendship-network)
-
-## Requirements
-
-- Python >= 3.9
-
-## Showcase <!-- GIFS -->
-
-### Erdős–Rényi friendship network
-
-![Erdős–Rényi friendship network](./assets/erdos-renyi-friendship-network-simulation.gif)
-
-### Geographical-based friendship network
-
-![Geographical-based map](./assets/geographical-friendship-network-simulation.gif) |
+    - [Inhabitant maps](#inhabitant-maps)
+      - [Purely random map](#purely-random-map)
+      - [Geographical-based random map](#geographical-based-random-map)
+    - [Friendship network](#friendship-network)
+  - [Showcase](#showcase)
+    - [Purely random friendship network](#purely-random-friendship-network)
+    - [Geographical-based friendship network](#geographical-based-friendship-network-1)
 
 ## Project description
 
@@ -38,15 +23,16 @@ Geographical distance plays a crucial role in social network formation, with clo
 
 Additionally, geographical features, such as the density of people in an area (more in cities and less in remote mountainous regions), profoundly influence the composition and scale of these networks, shaping the diversity and connectivity of communities within a given region.
 
-## Inhabitant maps
+
+### Inhabitant maps
 
 The project features two kinds of inhabitant maps:
 
-### Purely random map
+#### Purely random map
 
 1000 inhabitants are randomly distributed across a unit square map, $[0,1]^2$. Each individual is assigned a uniform random position $(x,y)$ in the map.
 
-### Geographical-based random map
+#### Geographical-based random map
 
 This map features several geographical areas $F$, such as cities, mountains, and lakes. The inhabitants are randomly distributed across the map, but the density of inhabitants is higher in cities and lower in mountains and lakes. The function $f$ maps the coordinates $(x, y)$ of an individual to the geographical area $f$ in which the individual is located.
 
@@ -70,8 +56,18 @@ P(\text{random person settles in } (x,y)) = \frac{s_{f(x,y)}}{\sum_{(x',y') \in 
 \end{equation}
 $$
 
-## Friendship network
+### Friendship network
 
 $$
 \textcolor{red}{\textbf{FINISH THIS WHEN I HAVE SOME TIME}}
 $$
+
+## Showcase<!-- GIFS -->
+
+### Purely random friendship network
+
+![Erdős–Rényi friendship network](./assets/erdos-renyi-network/gifs/erdos-renyi-network-simulation-1.gif)
+
+### Geographical-based friendship network
+
+![Geographical-based map](./assets/geographical-friendship-network/gifs/geographical-friendship-network-simulation-1.gif)
