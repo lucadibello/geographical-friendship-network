@@ -32,6 +32,7 @@ Luca Di Bello, University of Italian Switzerland (USI), 2023
     - [Geographical-based random map](#geographical-based-random-map)
   - [Friendship networks](#friendship-networks)
   - [Project](#project)
+  - [Getting started](#getting-started)
 
 ## Project description
 
@@ -91,7 +92,13 @@ Where $d(A,B)$ is the Euclidean distance between $A$ and $B$ and $\beta$ is a pa
 
 ## Project
 
-The project is available as a *Jupyter Notebook* [here](./notebooks/geographical-friendship-network.ipynb). It is advised to use the provided *environment.yml* file to create a new *conda* environment with all the required dependencies by executing the following command:
+The project is available as a *Jupyter Notebook* and can be found [here](https://nbviewer.org/github/lucadibello/geographical-friendship-network/blob/main/geographical-friendship-network.ipynb) (nbviewer.org).
+
+> Alternatively, the notebook can be viewed directly on GitHub [here](./notebooks/geographical-friendship-network.ipynb).
+
+## Getting started
+
+It is advised to use the provided *environment.yml* file to create a new *conda* environment with all the required dependencies by executing the following command:
 
 ```bash
 conda env create -f environment.yml
