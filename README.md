@@ -2,28 +2,9 @@
 
 Luca Di Bello, University of Italian Switzerland (USI), 2023
 
-## Table of contents<!-- omit in toc-->
-
-- [Geographical-based friendship network](#geographical-based-friendship-network)
-  - [Table of contents](#table-of-contents)
-  - [Project description](#project-description)
-  - [Showcase](#showcase)
-  - [Inhabitant maps](#inhabitant-maps)
-    - [Purely random map](#purely-random-map)
-    - [Geographical-based random map](#geographical-based-random-map)
-  - [Friendship networks](#friendship-networks)
-
-## Project description
-
-Social networks are systems that map the relationships and interactions between individuals. Although social networks are typically dynamic, the focus of this project is put on a static example.
-
-Geographical distance plays a crucial role in social network formation, with closer physical proximity typically leading to more frequent and stronger social ties.
-
-Additionally, geographical features, such as the density of people in an area (more in cities and less in remote mountainous regions), profoundly influence the composition and scale of these networks, shaping the diversity and connectivity of communities within a given region.
-
 ## Showcase<!-- GIFS -->
 
-<table>
+<table style="width:100%">
   <tr>
     <th>Purely random friendship network</th>
     <th>Geographical-based friendship network</th>
@@ -39,6 +20,25 @@ Additionally, geographical features, such as the density of people in an area (m
 </table>
 
 > Note: The GIFs above are just a small sample of the pre-computed simulations. The full set of simulations can be found in the `assets` folder.
+
+## Table of contents<!-- omit in toc-->
+
+- [Geographical-based friendship network](#geographical-based-friendship-network)
+  - [Showcase](#showcase)
+  - [Table of contents](#table-of-contents)
+  - [Project description](#project-description)
+  - [Inhabitant maps](#inhabitant-maps)
+    - [Purely random map](#purely-random-map)
+    - [Geographical-based random map](#geographical-based-random-map)
+  - [Friendship networks](#friendship-networks)
+
+## Project description
+
+Social networks are systems that map the relationships and interactions between individuals. Although social networks are typically dynamic, the focus of this project is put on a static example.
+
+Geographical distance plays a crucial role in social network formation, with closer physical proximity typically leading to more frequent and stronger social ties.
+
+Additionally, geographical features, such as the density of people in an area (more in cities and less in remote mountainous regions), profoundly influence the composition and scale of these networks, shaping the diversity and connectivity of communities within a given region.
 
 ## Inhabitant maps
 
