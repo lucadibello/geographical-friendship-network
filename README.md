@@ -38,6 +38,8 @@ Additionally, geographical features, such as the density of people in an area (m
   </tr>
 </table>
 
+> Note: The GIFs above are just a small sample of the pre-computed simulations. The full set of simulations can be found in the `assets` folder.
+
 ## Inhabitant maps
 
 The project features two kinds of inhabitant maps:
