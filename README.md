@@ -84,7 +84,7 @@ From the inhabitant maps, a friendship network is created following two differen
 
 $$
 \begin{equation*} \tag{3}
-P(A - B) = e^{-\beta \, d(A,B)}
+P(A - B) = e^{-\beta\ d(A,B)}
 \end{equation*}
 $$
 
