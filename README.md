@@ -7,6 +7,9 @@ Luca Di Bello, University of Italian Switzerland (USI), 2023
 - [Geographical-based friendship network](#geographical-based-friendship-network)
   - [Table of contents](#table-of-contents)
   - [Requirements](#requirements)
+  - [Showcase ](#showcase-)
+    - [Erdős–Rényi friendship network](#erdősrényi-friendship-network)
+    - [Geographical-based friendship network](#geographical-based-friendship-network-1)
   - [Project description](#project-description)
   - [Inhabitant maps](#inhabitant-maps)
     - [Purely random map](#purely-random-map)
@@ -16,6 +19,16 @@ Luca Di Bello, University of Italian Switzerland (USI), 2023
 ## Requirements
 
 - Python >= 3.9
+
+## Showcase <!-- GIFS -->
+
+### Erdős–Rényi friendship network
+
+![Erdős–Rényi friendship network](./assets/erdos-renyi-friendship-network-simulation.gif)
+
+### Geographical-based friendship network
+
+![Geographical-based map](./assets/geographical-friendship-network-simulation.gif) |
 
 ## Project description
 
