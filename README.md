@@ -19,7 +19,7 @@ Luca Di Bello, University of Italian Switzerland (USI), 2023
   </tr>
 </table>
 
-> Note: The GIFs above are just a small sample of the pre-computed simulations. The full set of simulations can be found in the `assets` folder.
+> Note: The GIFs above are just a small sample of the pre-computed simulations. The full set of simulations can be found in the `assets` folder or in the *Jupyter Notebook* project.
 
 ## Table of contents<!-- omit in toc-->
 
