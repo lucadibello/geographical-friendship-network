@@ -11,10 +11,10 @@ Luca Di Bello, University of Italian Switzerland (USI), 2023
   </tr>
   <tr>
     <td>
-      <img src="./assets/erdos-renyi-network/gifs/erdos-renyi-network-simulation-1.gif" width="auto" />
+      <img src="./assets/showcase/edoz-renyi-simulation-optimized.gif" width="auto" />
     </td>
     <td>
-      <img src="./assets/geographical-friendship-network/gifs/geographical-friendship-network-simulation-1.gif" width="auto" />
+      <img src="./assets/showcase/geographical-simulation-optimized.gif" width="auto" />
     </td>
   </tr>
 </table>
